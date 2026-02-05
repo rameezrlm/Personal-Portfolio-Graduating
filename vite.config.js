@@ -22,4 +22,5 @@ export default defineConfig({
     minify: 'terser',
     sourcemap: false,
   },
+  base:process.env.VITE_BASE_PATH || "/Personal-Portfolio-Graduating"
 });
